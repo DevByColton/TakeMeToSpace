@@ -1,0 +1,6606 @@
+[
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 2,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 2,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 2,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 2,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 2,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 2,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "grass"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "dirt"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  },
+  {
+    "TileColumns": [
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 3,
+        "HasCollider": false,
+        "TextureName": "blank"
+      },
+      {
+        "ColliderGroupDirection": 0,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      },
+      {
+        "ColliderGroupDirection": 1,
+        "HasCollider": true,
+        "TextureName": "rock"
+      }
+    ]
+  }
+]

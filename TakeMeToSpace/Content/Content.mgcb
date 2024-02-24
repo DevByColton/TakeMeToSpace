@@ -25,12 +25,12 @@
 /processorParam:TextureFormat=Color
 /build:Entity.png
 
-#begin Fonts/LambdaRegular.spritefont
+#begin Fonts/Lambda.spritefont
 /importer:FontDescriptionImporter
 /processor:FontDescriptionProcessor
 /processorParam:PremultiplyAlpha=True
 /processorParam:TextureFormat=Compressed
-/build:Fonts/LambdaRegular.spritefont
+/build:Fonts/Lambda.spritefont
 
 #begin Home/Tiles/blank.png
 /importer:TextureImporter
