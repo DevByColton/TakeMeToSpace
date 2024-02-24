@@ -86,16 +86,16 @@ public class HomeTileSet
         {
             for (int col = 0; col < Tiles.GetLength(1); col++)
             {
-                Tile sourceTile = Tiles[row, col];
+                Tile startTile = Tiles[row, col];
 
-                if (sourceTile.HasCollider && sourceTile.ColliderGroupDirection != ColliderGroupDirection.None && !sourceTile.IsColliderGrouped)
+                if (startTile.HasCollider && startTile.ColliderGroupDirection != ColliderGroupDirection.None && !startTile.IsColliderGrouped)
                 {
-                    // Create the new collider with the first tile as the starting point, marking the first tile as grouped
-                    ColliderComponent collider = new ColliderComponent(sourceTile);
-                    sourceTile.IsColliderGrouped = true;
+                    // Create the new collider with the first tile as the starting point, marking the startTile as grouped
+                    startTile.IsColliderGrouped = true;
+                    ColliderComponent collider = new ColliderComponent(startTile);
                     
                     // Recursively map the rest of the tiles in the group by direction
-                    switch (sourceTile.ColliderGroupDirection)
+                    switch (startTile.ColliderGroupDirection)
                     {
                         case ColliderGroupDirection.Horizontal:
                             // Get the horizontal tiles in the group, start at the next col
@@ -112,7 +112,8 @@ public class HomeTileSet
                         case ColliderGroupDirection.Box:
                             // Get the box tiles in the group, start at the next col first
                             List<Tile> boxTileGroup = new List<Tile>();
-                            MapBoxTileGroup(boxTileGroup, row, col);
+                            MapFirstBoxTileRow(boxTileGroup, row, col + 1);
+                            MapRemainingBoxTileRows(boxTileGroup, row + 1, col);
                             collider.Tiles.AddRange(boxTileGroup);
                             break;
                         case ColliderGroupDirection.None:
@@ -173,20 +174,55 @@ public class HomeTileSet
         }
     }
 
-    private void MapBoxTileGroup(List<Tile> tileGroup, int row, int col)
+    /// <summary>
+    /// Map the first row of tiles, when the tiles are in a group I want to start at the
+    /// very first tile row and map those tiles. On first call the first tile will
+    /// already be marked as grouped, so this will group the remaining tiles in the first row
+    /// </summary>
+    /// <param name="tileGroup"></param>
+    /// <param name="row"></param>
+    /// <param name="col"></param>
+    private void MapFirstBoxTileRow(List<Tile> tileGroup, int row, int col)
     {
-        // Todo: this will start at the second row on each, need to figure how to start at the 
-        // todo: first row each time (besides the very first pass) instead
+        // Make sure the next col value is still in bounds of the array
+        if (col < Tiles.GetLength(1))
+        {
+            Tile nextTile = Tiles[row, col];
+            if (!nextTile.IsColliderGrouped && nextTile.ColliderGroupDirection == ColliderGroupDirection.Box)
+            {
+                nextTile.IsColliderGrouped = true;
+                tileGroup.Add(nextTile);
+                MapFirstBoxTileRow(tileGroup, row, col + 1);
+            }
+        }
+    }
+
+    /// <summary>
+    /// Map the remaining rows after the first row has already been marked as group.
+    /// The first pass of the do loop gets the first row, then iterates through each
+    /// tile horizontally and vertically
+    /// </summary>
+    /// <param name="tileGroup"></param>
+    /// <param name="row"></param>
+    /// <param name="col"></param>
+    private void MapRemainingBoxTileRows(List<Tile> tileGroup, int row, int col)
+    {
         do
         {
-            MapBoxTileRowGroup(tileGroup, row + 1, col);
+            MapBoxTileRow(tileGroup, row, col);
             ++col;
         } while (col < Tiles.GetLength(1) && 
                  !Tiles[row, col].IsColliderGrouped && 
                  Tiles[row, col].ColliderGroupDirection == ColliderGroupDirection.Box);
     }
 
-    private void MapBoxTileRowGroup(List<Tile> tileGroup, int row, int col)
+    /// <summary>
+    /// Recursive loop to get each row of tiles to be grouped in a box collider
+    /// </summary>
+    /// <param name="tileGroup"></param>
+    /// <param name="row"></param>
+    /// <param name="col"></param>
+    private void MapBoxTileRow(List<Tile> tileGroup, int row, int col)
     {
         // Make sure the next row value is still in bounds of the array
         if (row < Tiles.GetLength(0))
@@ -196,7 +232,7 @@ public class HomeTileSet
             {
                 nextTile.IsColliderGrouped = true;
                 tileGroup.Add(nextTile);
-                MapBoxTileRowGroup(tileGroup, row + 1, col);
+                MapBoxTileRow(tileGroup, row + 1, col);
             }
         }
     }
