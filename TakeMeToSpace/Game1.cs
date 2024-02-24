@@ -1,6 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using TakeMeToSpace.Base.Camera;
+using TakeMeToSpace.Base.Services;
 
 namespace TakeMeToSpace
 {
@@ -13,10 +15,7 @@ namespace TakeMeToSpace
         private PrimitiveDrawingService _primitiveDrawingService;
         private GameCamera _gameCamera;
         private HomeTileSet _homeTileSet;
-        private BoundaryEntity _boundaryEntity;
-        private WorldColliderEntity _worldColliderEntity;
         private PlayerManager _playerManager;
-        private EnemyManager _enemyManager;
 
         public Game1()
         {
@@ -38,9 +37,6 @@ namespace TakeMeToSpace
             _playerManager = new PlayerManager(Content);
             _gameCamera = new GameCamera(_graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight, _playerManager.PlayerEntity.PositionComponent.Position);
             _gameCamera.SetMinScroll(_homeTileSet.MapTotalWidth, _homeTileSet.MapTotalHeight);
-            _enemyManager = new EnemyManager(Content);
-            _boundaryEntity = new BoundaryEntity(Content);
-            _worldColliderEntity = new WorldColliderEntity(Content);
             
             base.Initialize();
         }
@@ -48,7 +44,7 @@ namespace TakeMeToSpace
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            _font = Content.Load<SpriteFont>("Font/Lambda");
+            _font = Content.Load<SpriteFont>("Font/LambdaRegular");
         }
 
         protected override void Update(GameTime gameTime)
@@ -57,7 +53,6 @@ namespace TakeMeToSpace
                 Exit();
             
             _playerManager.Update(gameTime, _boundaryEntity, _worldColliderEntity);
-            _enemyManager.Update(gameTime, _playerManager.PlayerEntity.PositionComponent.Position);
             _gameCamera.Update(_playerManager.PlayerEntity.PositionComponent.Position, gameTime);
 
             base.Update(gameTime);
@@ -70,9 +65,6 @@ namespace TakeMeToSpace
             _spriteBatch.Begin(transformMatrix: _gameCamera.TransformMatrix);
         
             _homeTileSet.Draw(_spriteBatch);
-            _boundaryEntity.Draw(_spriteBatch, _primitiveDrawingService, _font);
-            _worldColliderEntity.Draw(_spriteBatch, _primitiveDrawingService);
-            _enemyManager.Draw(_spriteBatch, _primitiveDrawingService, _font);
             _playerManager.Draw(_spriteBatch, _primitiveDrawingService, _font);
             
             _spriteBatch.End();
