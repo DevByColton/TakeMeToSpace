@@ -15,7 +15,7 @@ public class PlayerCollisionService
         Vector2 potentialPosition = playerEntity.PositionComponent.Position + potentialDirection;
         
         // Get the potential new vertices components
-        VertexComponent[] potentialVcs = playerEntity.BoundingPolygon.TransformCopyVertexComponents(
+        Vertex[] potentialVertices = playerEntity.BoundingPolygon.TransformCopyVertices(
             potentialPosition,
             potentialDirection,
             playerEntity.PositionComponent.Rotation
@@ -23,13 +23,13 @@ public class PlayerCollisionService
         
         // Check the collision of the player against all boundaries
         Vector2 collisionResolution = Vector2.Zero;
-        collisionResolution += CheckColliders(potentialVcs, playerEntity, colliders);
+        collisionResolution += CheckColliders(potentialVertices, playerEntity, colliders);
         
         // Return the allowed movement amount based off direction and collision resolution
         return potentialDirection + collisionResolution;
     }
 
-    private Vector2 CheckColliders(VertexComponent[] potentialVcs, PlayerEntity playerEntity, List<Collider> colliders)
+    private Vector2 CheckColliders(Vertex[] potentialVcs, PlayerEntity playerEntity, List<Collider> colliders)
     {
         Vector2 collisionResolution = Vector2.Zero;
         
@@ -37,7 +37,7 @@ public class PlayerCollisionService
         {
             bool isColliding = _collisionService.DetectCollision(
                 potentialVcs,
-                collider.BoundingPolygon.VertexComponents,
+                collider.BoundingPolygon.Vertices,
                 out Vector2 collisionDirection,
                 out float collisionDepth
             );

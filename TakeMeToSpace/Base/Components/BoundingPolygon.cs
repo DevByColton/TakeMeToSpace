@@ -14,7 +14,7 @@ public class BoundingPolygon
 
     public readonly int Id;
     public readonly HashSet<int> CollidingWithIds = new();
-    public VertexComponent[] VertexComponents;
+    public Vertex[] Vertices;
 
     private bool _isColliding;
     public bool IsColliding
@@ -23,8 +23,8 @@ public class BoundingPolygon
         private set
         {
             _isColliding = value;
-            foreach (VertexComponent vertexComponent in VertexComponents)
-                vertexComponent.IsCollidingColorOverride = value;
+            foreach (Vertex vertex in Vertices)
+                vertex.IsCollidingColorOverride = value;
         }
     }
 
@@ -34,14 +34,14 @@ public class BoundingPolygon
         Id = GenerateId();
         UniqueIds.Add(Id);
 
-        VertexComponents = new VertexComponent[vertices.Length];
+        Vertices = new Vertex[vertices.Length];
         for (int i = 0; i < vertices.Length; i++)
         {
-           VertexComponents[i] = new VertexComponent
+           Vertices[i] = new Vertex
            {
-               EdgeColor = VertexComponent.Colors[i],
-               RotatedTranslatedVertex = vertices[i],
-               TranslatedVertex = vertices[i]
+               EdgeColor = Vertex.Colors[i],
+               RotatedTranslated = vertices[i],
+               Translated = vertices[i]
            };
         }
     }
@@ -74,56 +74,56 @@ public class BoundingPolygon
         float cos = (float)Math.Cos(rotation);
         float sin = (float)Math.Sin(rotation);
         
-        foreach (VertexComponent vertexComponent in VertexComponents)
+        foreach (Vertex vertex in Vertices)
         {   
             // Translate
-            vertexComponent.TranslatedVertex += translation;
+            vertex.Translated += translation;
             
             // Rotate by the un-rotated translation vector
-            Vector2 rotationalOrigin = vertexComponent.TranslatedVertex - position;
+            Vector2 rotationalOrigin = vertex.Translated - position;
             Vector2 rotated = new Vector2(
                 rotationalOrigin.X * cos - rotationalOrigin.Y * sin,
                 rotationalOrigin.X * sin + rotationalOrigin.Y * cos
             );
             
             // Translate the rotated point back to the point
-            vertexComponent.RotatedTranslatedVertex = rotated + position;
+            vertex.RotatedTranslated = rotated + position;
         }
     }
 
-    public VertexComponent[] TransformCopyVertexComponents(Vector2 position, Vector2 translation, float rotation)
+    public Vertex[] TransformCopyVertices(Vector2 position, Vector2 translation, float rotation)
     {
-        VertexComponent[] vcsCopy = new VertexComponent[VertexComponents.Length];
+        Vertex[] verticesCopy = new Vertex[Vertices.Length];
         float cos = (float)Math.Cos(rotation);
         float sin = (float)Math.Sin(rotation);
 
-        for (int i = 0; i < VertexComponents.Length; i++)
+        for (int i = 0; i < Vertices.Length; i++)
         {
             // Create the new vertex component and do translation
-            vcsCopy[i] = new VertexComponent
+            verticesCopy[i] = new Vertex
             {
-                TranslatedVertex = new Vector2(
-                    VertexComponents[i].TranslatedVertex.X + translation.X,
-                    VertexComponents[i].TranslatedVertex.Y + translation.Y
+                Translated = new Vector2(
+                    Vertices[i].Translated.X + translation.X,
+                    Vertices[i].Translated.Y + translation.Y
                 )
             };
 
             // Rotate by the un-rotated translation vector
-            Vector2 rotationalOrigin = vcsCopy[i].TranslatedVertex - position;
+            Vector2 rotationalOrigin = verticesCopy[i].Translated - position;
             Vector2 rotated = new Vector2(
                 rotationalOrigin.X * cos - rotationalOrigin.Y * sin,
                 rotationalOrigin.X * sin + rotationalOrigin.Y * cos
             );
 
             // Translate the rotated point back to the point
-            vcsCopy[i].RotatedTranslatedVertex = new Vector2(rotated.X + position.X, rotated.Y + position.Y);
+            verticesCopy[i].RotatedTranslated = new Vector2(rotated.X + position.X, rotated.Y + position.Y);
         }
         
-        return vcsCopy;
+        return verticesCopy;
     }
 
     public void Draw(PrimitiveDrawingService primitiveDrawingService)
     {
-        primitiveDrawingService.DrawShapeOutline(VertexComponents);
+        primitiveDrawingService.DrawShapeOutline(Vertices);
     }
 }

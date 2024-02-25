@@ -2,12 +2,12 @@
 
 namespace TakeMeToSpace.Base.Components;
 
-public class VertexComponent
+public class Vertex
 {
     public static readonly Color[] Colors = { Color.Green, Color.Pink, Color.White, Color.Orange, Color.Aqua, Color.Coral, Color.Purple };
     
-    public Vector2 RotatedTranslatedVertex;
-    public Vector2 TranslatedVertex;
+    public Vector2 RotatedTranslated;
+    public Vector2 Translated;
     public Color EdgeColor;
     public bool IsCollidingColorOverride;
     

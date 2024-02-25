@@ -85,15 +85,15 @@ public class PrimitiveDrawingService
         }
     }
 
-    public void DrawShapeOutline(VertexComponent[] vertexComponents)
+    public void DrawShapeOutline(Vertex[] vertices)
     {
         // This method assumes the vertices are in clockwise order
-        for (int i = 0; i < vertexComponents.Length; i++)
+        for (int i = 0; i < vertices.Length; i++)
         {
             DrawLine(
-                vertexComponents[i].RotatedTranslatedVertex, 
-                i != vertexComponents.Length - 1 ? vertexComponents[i + 1].RotatedTranslatedVertex : vertexComponents[0].RotatedTranslatedVertex, 
-                vertexComponents[i].GetEdgeColor()
+                vertices[i].RotatedTranslated, 
+                i != vertices.Length - 1 ? vertices[i + 1].RotatedTranslated : vertices[0].RotatedTranslated, 
+                vertices[i].GetEdgeColor()
             );
         }
     }
