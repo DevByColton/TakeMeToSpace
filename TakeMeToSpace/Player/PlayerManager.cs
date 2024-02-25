@@ -17,7 +17,7 @@ public class PlayerManager
         PlayerEntity = new PlayerEntity(entityTexture, new Vector2(1440, 650));
     }
 
-    public void Update(GameTime gameTime, List<ColliderComponent> colliders)
+    public void Update(GameTime gameTime, List<Collider> colliders)
     {
         PlayerEntity.Update(gameTime, colliders);
     }

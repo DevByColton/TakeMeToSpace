@@ -14,14 +14,14 @@ public enum ColliderType
     None
 }
 
-public class ColliderComponent
+public class Collider
 {
     public PositionComponent PositionComponent;
     public BoundingPolygonComponent BoundingPolygonComponent;
     public ColliderType ColliderType;
     public List<Tile> Tiles;
 
-    public ColliderComponent(Tile tile)
+    public Collider(Tile tile)
     {
         Tiles = new List<Tile> { tile };
         ColliderType = tile.ColliderType;

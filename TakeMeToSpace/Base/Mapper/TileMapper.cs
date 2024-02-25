@@ -11,7 +11,7 @@ namespace TakeMeToSpace.Base.Mapper;
 public class TileMapper
 {
     public Tile[,] Tiles;
-    public List<ColliderComponent> Colliders = new();
+    public List<Collider> Colliders = new();
     
     private List<TileRow> ReadJsonData(string path)
     {
@@ -190,7 +190,7 @@ public class TileMapper
                 {
                     // Create the new collider with the first tile as the starting point, marking the startTile as grouped
                     startTile.IsColliderGrouped = true;
-                    ColliderComponent collider = new ColliderComponent(startTile);
+                    Collider collider = new Collider(startTile);
                     
                     // Recursively map the rest of the tiles in the group by direction
                     switch (startTile.ColliderType)

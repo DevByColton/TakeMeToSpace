@@ -26,7 +26,7 @@ public class HomeAreaManager
         _tileMapper.CreateColliders();
     }
     
-    public List<ColliderComponent> Colliders()
+    public List<Collider> Colliders()
     {
         return _tileMapper.Colliders;
     }

@@ -35,7 +35,7 @@ public class PlayerEntity
         });
     }
 
-    public void Update(GameTime gameTime, List<ColliderComponent> colliders)
+    public void Update(GameTime gameTime, List<Collider> colliders)
     {
         float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
         KeyboardState currentKeyBoardState = Keyboard.GetState();

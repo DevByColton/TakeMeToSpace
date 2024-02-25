@@ -9,7 +9,7 @@ public class PlayerCollisionService
 {
     private readonly CollisionService _collisionService = new();
 
-    public Vector2 GetAllowedMovement(Vector2 potentialDirection, PlayerEntity playerEntity, List<ColliderComponent> colliders)
+    public Vector2 GetAllowedMovement(Vector2 potentialDirection, PlayerEntity playerEntity, List<Collider> colliders)
     {
         // Get the potential position by adding the potential direction to the current position
         Vector2 potentialPosition = playerEntity.PositionComponent.Position + potentialDirection;
@@ -29,7 +29,7 @@ public class PlayerCollisionService
         return potentialDirection + collisionResolution;
     }
 
-    private Vector2 CheckColliders(VertexComponent[] potentialVcs, PlayerEntity playerEntity, List<ColliderComponent> colliders)
+    private Vector2 CheckColliders(VertexComponent[] potentialVcs, PlayerEntity playerEntity, List<Collider> colliders)
     {
         Vector2 collisionResolution = Vector2.Zero;
         
