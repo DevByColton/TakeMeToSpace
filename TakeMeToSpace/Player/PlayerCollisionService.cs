@@ -15,7 +15,7 @@ public class PlayerCollisionService
         Vector2 potentialPosition = playerEntity.PositionComponent.Position + potentialDirection;
         
         // Get the potential new vertices components
-        VertexComponent[] potentialVcs = playerEntity.BoundingPolygonComponent.TransformCopyVertexComponents(
+        VertexComponent[] potentialVcs = playerEntity.BoundingPolygon.TransformCopyVertexComponents(
             potentialPosition,
             potentialDirection,
             playerEntity.PositionComponent.Rotation
@@ -37,7 +37,7 @@ public class PlayerCollisionService
         {
             bool isColliding = _collisionService.DetectCollision(
                 potentialVcs,
-                collider.BoundingPolygonComponent.VertexComponents,
+                collider.BoundingPolygon.VertexComponents,
                 out Vector2 collisionDirection,
                 out float collisionDepth
             );
@@ -53,13 +53,13 @@ public class PlayerCollisionService
                 // Aggregate the collision resolutions
                 collisionResolution += collisionDirection * collisionDepth;
                 
-                playerEntity.BoundingPolygonComponent.AddCollidingWith(collider.BoundingPolygonComponent.Id);
-                collider.BoundingPolygonComponent.AddCollidingWith(playerEntity.BoundingPolygonComponent.Id);
+                playerEntity.BoundingPolygon.AddCollidingWith(collider.BoundingPolygon.Id);
+                collider.BoundingPolygon.AddCollidingWith(playerEntity.BoundingPolygon.Id);
             }
             else
             {
-                playerEntity.BoundingPolygonComponent.RemoveCollidingWith(collider.BoundingPolygonComponent.Id);
-                collider.BoundingPolygonComponent.RemoveCollidingWith(playerEntity.BoundingPolygonComponent.Id);
+                playerEntity.BoundingPolygon.RemoveCollidingWith(collider.BoundingPolygon.Id);
+                collider.BoundingPolygon.RemoveCollidingWith(playerEntity.BoundingPolygon.Id);
             }
         });
 

@@ -13,7 +13,7 @@ public class PlayerEntity
     private PlayerCollisionService _playerCollisionService = new();
     private float _linearVelocity = 300f;
     
-    public BoundingPolygonComponent BoundingPolygonComponent;
+    public BoundingPolygon BoundingPolygon;
     public PositionComponent PositionComponent;
     
     public PlayerEntity(Texture2D squareTexture, Vector2 position)
@@ -26,7 +26,7 @@ public class PlayerEntity
             Rotation = 0f
         };
 
-        BoundingPolygonComponent = new BoundingPolygonComponent(new[]
+        BoundingPolygon = new BoundingPolygon(new[]
         {
             new Vector2(PositionComponent.Offset().X, PositionComponent.Offset().Y),
             new Vector2(PositionComponent.Offset().X + _spriteComponent.Texture.Width, PositionComponent.Offset().Y),
@@ -55,7 +55,7 @@ public class PlayerEntity
         Vector2 allowedMovement = _playerCollisionService.GetAllowedMovement(direction, this, colliders);
         PositionComponent.Position += allowedMovement;
         
-        BoundingPolygonComponent.Transform(
+        BoundingPolygon.Transform(
             PositionComponent.Position, 
             allowedMovement,
             PositionComponent.Rotation
@@ -75,14 +75,14 @@ public class PlayerEntity
             effects: SpriteEffects.None,
             layerDepth: 0f
         );
-        BoundingPolygonComponent.Draw(primitiveDrawingService);
+        BoundingPolygon.Draw(primitiveDrawingService);
 
-        // spriteBatch.DrawString(font, $"ID: {BoundingPolygonComponent.Id} \n", WorldPositionOriginOffset(), Color.White);
+        // spriteBatch.DrawString(font, $"ID: {BoundingPolygon.Id} \n", WorldPositionOriginOffset(), Color.White);
         //spriteBatch.DrawString(font, $"Position: {PositionComponent.Position}", Vector2.Zero, Color.White);
         //
-        // string collidingWithIdsText = BoundingPolygonComponent.CollidingWithIds.Aggregate("", (current, id) => current + (id + "\n"));
+        // string collidingWithIdsText = BoundingPolygon.CollidingWithIds.Aggregate("", (current, id) => current + (id + "\n"));
         // spriteBatch.DrawString(font, $"collidingWithIdsText: \n {collidingWithIdsText}", new Vector2(WorldPositionOriginOffset().X, WorldPositionOriginOffset().Y + 60), Color.White);
         //
-        // spriteBatch.DrawString(font, $"IsColliding: {BoundingPolygonComponent.IsColliding}", new Vector2(WorldPositionOriginOffset().X, WorldPositionOriginOffset().Y + 260), Color.White);
+        // spriteBatch.DrawString(font, $"IsColliding: {BoundingPolygon.IsColliding}", new Vector2(WorldPositionOriginOffset().X, WorldPositionOriginOffset().Y + 260), Color.White);
     }
 }

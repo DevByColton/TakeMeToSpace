@@ -17,7 +17,7 @@ public enum ColliderType
 public class Collider
 {
     public PositionComponent PositionComponent;
-    public BoundingPolygonComponent BoundingPolygonComponent;
+    public BoundingPolygon BoundingPolygon;
     public ColliderType ColliderType;
     public List<Tile> Tiles;
 
@@ -52,7 +52,7 @@ public class Collider
             new(PositionComponent.Position.X + PositionComponent.Origin.X, PositionComponent.Position.Y + PositionComponent.Origin.Y),
             new(PositionComponent.Position.X - PositionComponent.Origin.X, PositionComponent.Position.Y + PositionComponent.Origin.Y)
         };
-        BoundingPolygonComponent = new BoundingPolygonComponent(vertices);
+        BoundingPolygon = new BoundingPolygon(vertices);
     }
 
     private void SetHorizontalBoundingPolygon()
@@ -117,6 +117,6 @@ public class Collider
     
     public void Draw(PrimitiveDrawingService primitiveDrawingService)
     {
-        BoundingPolygonComponent?.Draw(primitiveDrawingService);
+        BoundingPolygon?.Draw(primitiveDrawingService);
     }
 }

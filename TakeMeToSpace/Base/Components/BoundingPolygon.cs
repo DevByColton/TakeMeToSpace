@@ -6,9 +6,9 @@ using TakeMeToSpace.Base.Utilities;
 
 namespace TakeMeToSpace.Base.Components;
 
-public class BoundingPolygonComponent
+public class BoundingPolygon
 {
-    // Todo: Make sure once destroying objects is implemented, to clean up ids that are being destoryed
+    // Todo: Make sure once destroying objects is implemented, to clean up ids that are being destroyed
     private static readonly HashSet<int> UniqueIds = new();
     private static readonly int MaxIdNumber = 1001;
 
@@ -28,7 +28,7 @@ public class BoundingPolygonComponent
         }
     }
 
-    public BoundingPolygonComponent(Vector2[] vertices)
+    public BoundingPolygon(Vector2[] vertices)
     {
         // Generate the id and add it to the static unique ids list
         Id = GenerateId();
