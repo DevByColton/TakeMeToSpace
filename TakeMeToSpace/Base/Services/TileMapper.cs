@@ -19,7 +19,7 @@ public class TileMapper
         return JsonSerializer.Deserialize<List<TileRow>>(fileContents);
     }
     
-        /// <summary>
+    /// <summary>
     /// Recursive function to map all of the tiles in a horizontal group
     /// Each recursive iteration will increment the col value until the next tile
     /// is not a part of the group. If the tile is apart of the group, add it to the
