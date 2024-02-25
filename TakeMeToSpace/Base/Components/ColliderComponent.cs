@@ -6,8 +6,8 @@ using TakeMeToSpace.Base.Services;
 
 namespace TakeMeToSpace.Base.Components;
 
-public enum ColliderGroupDirection
-{ // TODO: Rename to collider type
+public enum ColliderType
+{
     Vertical,
     Horizontal,
     Box,
@@ -18,26 +18,26 @@ public class ColliderComponent
 {
     public PositionComponent PositionComponent;
     public BoundingPolygonComponent BoundingPolygonComponent;
-    public ColliderGroupDirection ColliderGroupDirection;
+    public ColliderType ColliderType;
     public List<Tile> Tiles;
 
     public ColliderComponent(Tile tile)
     {
         Tiles = new List<Tile> { tile };
-        ColliderGroupDirection = tile.ColliderGroupDirection;
+        ColliderType = tile.ColliderType;
     }
 
     public void CreateBoundingPolygon()
     {
-        switch (ColliderGroupDirection)
+        switch (ColliderType)
         {
-            case ColliderGroupDirection.Horizontal:
+            case ColliderType.Horizontal:
                 SetHorizontalBoundingPolygon();
                 break;
-            case ColliderGroupDirection.Vertical:
+            case ColliderType.Vertical:
                 SetVerticalBoundingPolygon();
                 break;
-            case ColliderGroupDirection.Box:
+            case ColliderType.Box:
                 SetBoxBoundingPolygon();
                 break;
             default:

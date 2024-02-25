@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TakeMeToSpace.Base.Reader;
+namespace TakeMeToSpace.Base.Mapper;
 
 public class TileRow
 {

@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using TakeMeToSpace.Base.Components;
 
-namespace TakeMeToSpace.Base.Reader;
+namespace TakeMeToSpace.Base.Mapper;
 
 public class TileMapper
 {
@@ -34,7 +34,7 @@ public class TileMapper
         if (col < Tiles.GetLength(1))
         {
             Tile nextTile = Tiles[row, col];
-            if (!nextTile.IsColliderGrouped && nextTile.ColliderGroupDirection == ColliderGroupDirection.Horizontal)
+            if (!nextTile.IsColliderGrouped && nextTile.ColliderType == ColliderType.Horizontal)
             {
                 nextTile.IsColliderGrouped = true;
                 tileGroup.Add(nextTile);
@@ -58,7 +58,7 @@ public class TileMapper
         if (row < Tiles.GetLength(0))
         {
             Tile nextTile = Tiles[row, col];
-            if (!nextTile.IsColliderGrouped && nextTile.ColliderGroupDirection == ColliderGroupDirection.Vertical)
+            if (!nextTile.IsColliderGrouped && nextTile.ColliderType == ColliderType.Vertical)
             {
                 nextTile.IsColliderGrouped = true;
                 tileGroup.Add(nextTile);
@@ -81,7 +81,7 @@ public class TileMapper
         if (col < Tiles.GetLength(1))
         {
             Tile nextTile = Tiles[row, col];
-            if (!nextTile.IsColliderGrouped && nextTile.ColliderGroupDirection == ColliderGroupDirection.Box)
+            if (!nextTile.IsColliderGrouped && nextTile.ColliderType == ColliderType.Box)
             {
                 nextTile.IsColliderGrouped = true;
                 tileGroup.Add(nextTile);
@@ -106,7 +106,7 @@ public class TileMapper
             ++col;
         } while (col < Tiles.GetLength(1) && 
                  !Tiles[row, col].IsColliderGrouped && 
-                 Tiles[row, col].ColliderGroupDirection == ColliderGroupDirection.Box);
+                 Tiles[row, col].ColliderType == ColliderType.Box);
     }
 
     /// <summary>
@@ -121,7 +121,7 @@ public class TileMapper
         if (row < Tiles.GetLength(0))
         {
             Tile nextTile = Tiles[row, col];
-            if (!nextTile.IsColliderGrouped && nextTile.ColliderGroupDirection == ColliderGroupDirection.Box)
+            if (!nextTile.IsColliderGrouped && nextTile.ColliderType == ColliderType.Box)
             {
                 nextTile.IsColliderGrouped = true;
                 tileGroup.Add(nextTile);
@@ -164,7 +164,7 @@ public class TileMapper
                         Rotation = 0f
                     },
                     HasCollider = tileColumn.HasCollider,
-                    ColliderGroupDirection = tileColumn.ColliderGroupDirection,
+                    ColliderType = tileColumn.ColliderType,
                     Row = row,
                     Column = col
                 };
@@ -186,28 +186,28 @@ public class TileMapper
             {
                 Tile startTile = Tiles[row, col];
 
-                if (startTile.HasCollider && startTile.ColliderGroupDirection != ColliderGroupDirection.None && !startTile.IsColliderGrouped)
+                if (startTile.HasCollider && startTile.ColliderType != ColliderType.None && !startTile.IsColliderGrouped)
                 {
                     // Create the new collider with the first tile as the starting point, marking the startTile as grouped
                     startTile.IsColliderGrouped = true;
                     ColliderComponent collider = new ColliderComponent(startTile);
                     
                     // Recursively map the rest of the tiles in the group by direction
-                    switch (startTile.ColliderGroupDirection)
+                    switch (startTile.ColliderType)
                     {
-                        case ColliderGroupDirection.Horizontal:
+                        case ColliderType.Horizontal:
                             // Get the horizontal tiles in the group, start at the next col
                             List<Tile> horizontalTileGroup = new List<Tile>();
                             MapHorizontalTileGroup(horizontalTileGroup, row, col + 1);
                             collider.Tiles.AddRange(horizontalTileGroup);
                             break;
-                        case ColliderGroupDirection.Vertical:
+                        case ColliderType.Vertical:
                             // Get the vertical tiles in the group, start at the next row
                             List<Tile> verticalTileGroup = new List<Tile>();
                             MapVerticalTileGroup(verticalTileGroup, row + 1, col);
                             collider.Tiles.AddRange(verticalTileGroup);
                             break;
-                        case ColliderGroupDirection.Box:
+                        case ColliderType.Box:
                             // Get the box tiles in the group, start at the next col first
                             List<Tile> boxTileGroup = new List<Tile>();
                             MapFirstBoxTileRow(boxTileGroup, row, col + 1);

@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using TakeMeToSpace.Base.Components;
-using TakeMeToSpace.Base.Reader;
+using TakeMeToSpace.Base.Mapper;
 using TakeMeToSpace.Base.Services;
 
 namespace TakeMeToSpace.HomeArea;

@@ -11,7 +11,7 @@ public class Tile
     public Rectangle TileRectangle;
     public bool HasCollider = false;
     public bool IsColliderGrouped = false;
-    public ColliderGroupDirection ColliderGroupDirection = ColliderGroupDirection.None;
+    public ColliderType ColliderType = ColliderType.None;
     public int Row;
     public int Column;
     
