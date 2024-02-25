@@ -38,7 +38,7 @@ namespace TakeMeToSpace
             _homeAreaManager = new HomeAreaManager(Content);
             _playerManager = new PlayerManager(Content);
             _gameCamera = new GameCamera(_graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight, _playerManager.PlayerEntity.PositionComponent.Position);
-            _gameCamera.SetMinScroll(_homeAreaManager.HomeTileSet.MapTotalWidth, _homeAreaManager.HomeTileSet.MapTotalHeight);
+            _gameCamera.SetMinScroll(_homeAreaManager.TotalWidth(), _homeAreaManager.TotalHeight());
             
             base.Initialize();
         }
@@ -54,7 +54,10 @@ namespace TakeMeToSpace
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
             
-            _playerManager.Update(gameTime, _homeAreaManager.HomeTileSet.Tiles);
+            Vector2 mousePosition = Vector2.Transform(Mouse.GetState().Position.ToVector2(), Matrix.Invert(_gameCamera.TransformMatrix));
+            
+            _homeAreaManager.Update(mousePosition);
+            _playerManager.Update(gameTime, _homeAreaManager.Colliders());
             _gameCamera.Update(_playerManager.PlayerEntity.PositionComponent.Position, gameTime);
 
             base.Update(gameTime);

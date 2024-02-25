@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Collections.Generic;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using TakeMeToSpace.Base.Components;
@@ -16,9 +17,9 @@ public class PlayerManager
         PlayerEntity = new PlayerEntity(entityTexture, new Vector2(1440, 650));
     }
 
-    public void Update(GameTime gameTime, Tile[,] tiles)
+    public void Update(GameTime gameTime, List<ColliderComponent> colliders)
     {
-        PlayerEntity.Update(gameTime, tiles);
+        PlayerEntity.Update(gameTime, colliders);
     }
 
     public void Draw(SpriteBatch spriteBatch, PrimitiveDrawingService primitiveDrawingService, SpriteFont font)

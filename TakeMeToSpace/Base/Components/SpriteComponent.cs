@@ -1,10 +1,12 @@
-﻿using Microsoft.Xna.Framework.Graphics;
+﻿using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Graphics;
 
 namespace TakeMeToSpace.Base.Components;
 
 public class SpriteComponent
 {
     public Texture2D Texture;
+    public Color Color = Color.White;
 
     public SpriteComponent(Texture2D texture)
     {

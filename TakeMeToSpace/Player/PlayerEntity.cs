@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Collections.Generic;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using TakeMeToSpace.Base.Components;
@@ -34,7 +35,7 @@ public class PlayerEntity
         });
     }
 
-    public void Update(GameTime gameTime, Tile[,] tiles)
+    public void Update(GameTime gameTime, List<ColliderComponent> colliders)
     {
         float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
         KeyboardState currentKeyBoardState = Keyboard.GetState();
@@ -51,7 +52,7 @@ public class PlayerEntity
         if (currentKeyBoardState.IsKeyDown(Keys.Right)) PositionComponent.Rotation = 0;
 
         direction *= _linearVelocity * deltaTime;
-        Vector2 allowedMovement = _playerCollisionService.GetAllowedMovement(direction, this, tiles);
+        Vector2 allowedMovement = _playerCollisionService.GetAllowedMovement(direction, this, colliders);
         PositionComponent.Position += allowedMovement;
         
         BoundingPolygonComponent.Transform(
