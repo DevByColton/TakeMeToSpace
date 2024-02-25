@@ -1,6 +1,4 @@
-﻿using TakeMeToSpace.Base.Components;
-
-namespace TakeMeToSpace.Base.Mapper;
+﻿namespace TakeMeToSpace.Base.Components;
 
 public class TileColumn
 {

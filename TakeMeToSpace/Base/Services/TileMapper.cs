@@ -6,7 +6,7 @@ using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 using TakeMeToSpace.Base.Components;
 
-namespace TakeMeToSpace.Base.Mapper;
+namespace TakeMeToSpace.Base.Services;
 
 public class TileMapper
 {
