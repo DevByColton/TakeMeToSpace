@@ -28,8 +28,8 @@ namespace TakeMeToSpace
 
         protected override void Initialize()
         {
-            _graphics.PreferredBackBufferWidth = 1920;
-            _graphics.PreferredBackBufferHeight = 1080;
+            _graphics.PreferredBackBufferWidth = 1080;
+            _graphics.PreferredBackBufferHeight = 720;
             _graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
             _graphics.GraphicsDevice.BlendState = BlendState.AlphaBlend;
             _graphics.ApplyChanges();
@@ -38,7 +38,11 @@ namespace TakeMeToSpace
             _homeAreaManager = new HomeAreaManager(Content);
             _playerManager = new PlayerManager(Content);
             _gameCamera = new GameCamera(_graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight, _playerManager.PlayerEntity.PositionComponent.Position);
-            _gameCamera.SetMinScroll(_homeAreaManager.TotalWidth(), _homeAreaManager.TotalHeight());
+            _gameCamera.SetMinMaxScroll(
+                _homeAreaManager.TotalWidth(), 
+                _homeAreaManager.TotalHeight(),
+                _homeAreaManager.Tiles()[0,0].PositionComponent.Offset()
+            );
             
             base.Initialize();
         }

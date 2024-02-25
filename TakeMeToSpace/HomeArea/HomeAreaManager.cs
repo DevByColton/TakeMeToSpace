@@ -25,6 +25,11 @@ public class HomeAreaManager
         _tileMapper.MapFromJson(content, path);
         _tileMapper.CreateColliders();
     }
+
+    public Tile[,] Tiles()
+    {
+        return _tileMapper.Tiles;
+    }
     
     public List<Collider> Colliders()
     {

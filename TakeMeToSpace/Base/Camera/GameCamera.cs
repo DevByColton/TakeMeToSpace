@@ -8,7 +8,7 @@ public class GameCamera
     private float _viewportHeight;
     private float _lerpSpeed = 10f;
     private Vector2 _viewportOrigin;
-    public bool ClampCamera = false;
+    public bool ClampCamera = true;
     public Vector2 MinScroll;
     public Vector2 MaxScroll = Vector2.Zero;
     public Matrix TransformMatrix;
@@ -29,9 +29,10 @@ public class GameCamera
         _viewportOrigin = new Vector2(_viewportWidth / 2f, _viewportHeight / 2f);
     }
 
-    public void SetMinScroll(float x, float y)
+    public void SetMinMaxScroll(float x, float y, Vector2 offset)
     {
-        MinScroll = new Vector2(-x + _viewportWidth, -y + _viewportHeight);
+        MaxScroll = -offset;
+        MinScroll = new Vector2(-x + _viewportWidth, -y + _viewportHeight) - offset;
     }
 
     public void Update(Vector2 playerPosition, GameTime gameTime)
