@@ -66,8 +66,8 @@ public class Collider
         {
             Position = new Vector2(minX + (maxX - minX) / 2, Tiles[0].PositionComponent.Position.Y),
             Origin = new Vector2(
-                Tiles[0].SpriteComponent.Width() * Tiles.Count / 2f, 
-                Tiles[0].SpriteComponent.Height() / 2f
+                Tiles[0].Sprite.Width() * Tiles.Count / 2f, 
+                Tiles[0].Sprite.Height() / 2f
             ),
             Rotation = 0f
         };
@@ -84,8 +84,8 @@ public class Collider
         {
             Position = new Vector2(Tiles[0].PositionComponent.Position.X, minY + (maxY - minY) / 2),
             Origin = new Vector2(
-                Tiles[0].SpriteComponent.Width() / 2f, 
-                Tiles[0].SpriteComponent.Height() * Tiles.Count / 2f
+                Tiles[0].Sprite.Width() / 2f, 
+                Tiles[0].Sprite.Height() * Tiles.Count / 2f
             ),
             Rotation = 0f
         };
@@ -108,8 +108,8 @@ public class Collider
         {
             Position = new Vector2(minX + (maxX - minX) / 2, minY + (maxY - minY) / 2),
             Origin = new Vector2(
-                Tiles[0].SpriteComponent.Width() * columnCount / 2f, 
-                Tiles[0].SpriteComponent.Height() * rowsCount / 2f
+                Tiles[0].Sprite.Width() * columnCount / 2f, 
+                Tiles[0].Sprite.Height() * rowsCount / 2f
             ),
             Rotation = 0f
         };

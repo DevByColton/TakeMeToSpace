@@ -9,7 +9,7 @@ namespace TakeMeToSpace.Player;
 
 public class PlayerEntity
 {
-    private SpriteComponent _spriteComponent;
+    private Sprite _sprite;
     private PlayerCollisionService _playerCollisionService = new();
     private float _linearVelocity = 300f;
     
@@ -18,7 +18,7 @@ public class PlayerEntity
     
     public PlayerEntity(Texture2D squareTexture, Vector2 position)
     {
-        _spriteComponent = new SpriteComponent(squareTexture);
+        _sprite = new Sprite(squareTexture);
         PositionComponent = new PositionComponent
         {
             Position = position,
@@ -29,9 +29,9 @@ public class PlayerEntity
         BoundingPolygon = new BoundingPolygon(new[]
         {
             new Vector2(PositionComponent.Offset().X, PositionComponent.Offset().Y),
-            new Vector2(PositionComponent.Offset().X + _spriteComponent.Texture.Width, PositionComponent.Offset().Y),
-            new Vector2(PositionComponent.Offset().X + _spriteComponent.Texture.Width, PositionComponent.Offset().Y + _spriteComponent.Texture.Height),
-            new Vector2(PositionComponent.Offset().X, PositionComponent.Offset().Y + _spriteComponent.Texture.Height)
+            new Vector2(PositionComponent.Offset().X + _sprite.Texture.Width, PositionComponent.Offset().Y),
+            new Vector2(PositionComponent.Offset().X + _sprite.Texture.Width, PositionComponent.Offset().Y + _sprite.Texture.Height),
+            new Vector2(PositionComponent.Offset().X, PositionComponent.Offset().Y + _sprite.Texture.Height)
         });
     }
 
@@ -65,7 +65,7 @@ public class PlayerEntity
     public void Draw(SpriteBatch spriteBatch, PrimitiveDrawingService primitiveDrawingService, SpriteFont font)
     {
         spriteBatch.Draw(
-            texture: _spriteComponent.Texture,
+            texture: _sprite.Texture,
             position: PositionComponent.Position,
             sourceRectangle: null,
             color: Color.White,

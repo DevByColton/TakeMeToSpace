@@ -3,12 +3,12 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace TakeMeToSpace.Base.Components;
 
-public class SpriteComponent
+public class Sprite
 {
     public Texture2D Texture;
     public Color Color = Color.White;
 
-    public SpriteComponent(Texture2D texture)
+    public Sprite(Texture2D texture)
     {
         Texture = texture;
     }

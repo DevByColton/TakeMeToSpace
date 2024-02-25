@@ -132,12 +132,12 @@ public class TileMapper
 
     public float MapTotalWidth()
     {
-        return Tiles[0,0].SpriteComponent.Width() * Tiles.GetLength(1);
+        return Tiles[0,0].Sprite.Width() * Tiles.GetLength(1);
     }
 
     public float MapTotalHeight()
     {
-        return Tiles[0,0].SpriteComponent.Height() * Tiles.GetLength(0);
+        return Tiles[0,0].Sprite.Height() * Tiles.GetLength(0);
     }
     
     public void MapFromJson(ContentManager content, string path)
@@ -156,7 +156,7 @@ public class TileMapper
                 // Create the new tile
                 Tiles[row, col] = new Tile
                 {
-                    SpriteComponent = new SpriteComponent(texture),
+                    Sprite = new Sprite(texture),
                     PositionComponent = new PositionComponent
                     {
                         Position = new Vector2(texture.Width * col, texture.Height * row),

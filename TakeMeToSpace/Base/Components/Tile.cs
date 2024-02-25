@@ -6,7 +6,7 @@ namespace TakeMeToSpace.Base.Components;
 
 public class Tile
 {
-    public SpriteComponent SpriteComponent;
+    public Sprite Sprite;
     public PositionComponent PositionComponent;
     public Rectangle TileRectangle;
     public bool HasCollider = false;
@@ -21,23 +21,23 @@ public class Tile
         TileRectangle = new Rectangle(
             (int) PositionComponent.Offset().X,
             (int) PositionComponent.Offset().Y,
-            SpriteComponent.Width(),
-            SpriteComponent.Height()
+            Sprite.Width(),
+            Sprite.Height()
        );
     }
 
     public void Update(Vector2 mousePosition)
     {
-        SpriteComponent.Color = TileRectangle.Contains(mousePosition) ? Color.Red : Color.White;
+        Sprite.Color = TileRectangle.Contains(mousePosition) ? Color.Red : Color.White;
     }
 
     public void Draw(SpriteBatch spriteBatch, PrimitiveDrawingService primitiveDrawingService, SpriteFont font)
     {
         spriteBatch.Draw(
-            texture: SpriteComponent.Texture,
+            texture: Sprite.Texture,
             position: PositionComponent.Position,
             sourceRectangle: null,
-            color: SpriteComponent.Color,
+            color: Sprite.Color,
             rotation: PositionComponent.Rotation,
             origin: PositionComponent.Origin,
             scale: Vector2.One,
