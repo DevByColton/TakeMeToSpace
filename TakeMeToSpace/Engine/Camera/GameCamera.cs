@@ -6,7 +6,7 @@ public class GameCamera
 {
     private float _viewportWidth;
     private float _viewportHeight;
-    private float _lerpSpeed = 10f;
+    private float _lerpSpeed = 8f;
     private Vector2 _viewportOrigin;
     public bool ClampCamera = true;
     public Vector2 MinScroll;
