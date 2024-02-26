@@ -2,8 +2,8 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using TakeMeToSpace.Base.Components;
-using TakeMeToSpace.Base.Services;
+using TakeMeToSpace.Engine.Components;
+using TakeMeToSpace.Engine.Services;
 
 namespace TakeMeToSpace.Player;
 

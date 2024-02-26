@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TakeMeToSpace.Base.Utilities;
+namespace TakeMeToSpace.Engine.Utilities;
 
 public static class Randomizer
 {

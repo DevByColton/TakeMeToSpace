@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using TakeMeToSpace.Base.Components;
-using TakeMeToSpace.Base.Services;
+using TakeMeToSpace.Engine.Components;
+using TakeMeToSpace.Engine.Services;
 
 namespace TakeMeToSpace.Player;
 

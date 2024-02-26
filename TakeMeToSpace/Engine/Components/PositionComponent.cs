@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace TakeMeToSpace.Base.Components;
+namespace TakeMeToSpace.Engine.Components;
 
 public class PositionComponent
 {

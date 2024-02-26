@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace TakeMeToSpace.Base.Components;
+namespace TakeMeToSpace.Engine.Components;
 
 public class TileRow
 {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
-using TakeMeToSpace.Base.Services;
-using TakeMeToSpace.Base.Utilities;
+using TakeMeToSpace.Engine.Services;
+using TakeMeToSpace.Engine.Utilities;
 
-namespace TakeMeToSpace.Base.Components;
+namespace TakeMeToSpace.Engine.Components;
 
 public class BoundingPolygon
 {

@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace TakeMeToSpace.Base.Components;
+namespace TakeMeToSpace.Engine.Components;
 
 public class Sprite
 {

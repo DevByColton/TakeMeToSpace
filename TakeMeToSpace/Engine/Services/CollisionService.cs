@@ -1,11 +1,18 @@
 ﻿using System;
 using Microsoft.Xna.Framework;
-using TakeMeToSpace.Base.Components;
+using TakeMeToSpace.Engine.Components;
 
-namespace TakeMeToSpace.Base.Services;
+namespace TakeMeToSpace.Engine.Services;
 
 public class CollisionService
 {
+    /// <summary>
+    /// Project the set of vertices onto the normal to get the minimum and maximum projections
+    /// </summary>
+    /// <param name="vertices"></param>
+    /// <param name="edgeNormal"></param>
+    /// <param name="min"></param>
+    /// <param name="max"></param>
     private void FindMinMaxProjection(Vertex[] vertices, Vector2 edgeNormal, out float min, out float max)
     {
         // Reset min and max projections to their respective opposites to ensure they are set on the first pass
@@ -20,6 +27,16 @@ public class CollisionService
         }
     }
 
+    /// <summary>
+    /// Using separating axis theorem to detect collision. Go through each set of vertices
+    /// and project each edge between vertices on the normal of each edge until overlap
+    /// is found. Will return false as soon as separation is found on any normal.
+    /// </summary>
+    /// <param name="vertices1"></param>
+    /// <param name="vertices2"></param>
+    /// <param name="collisionDirection"></param>
+    /// <param name="smallestCollisionDepth"></param>
+    /// <returns></returns>
     public bool DetectCollision(Vertex[] vertices1, Vertex[] vertices2, out Vector2 collisionDirection, out float smallestCollisionDepth)
     {
         // Reset the resolution values

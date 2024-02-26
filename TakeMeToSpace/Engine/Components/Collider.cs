@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
-using TakeMeToSpace.Base.Services;
+using TakeMeToSpace.Engine.Services;
 
-namespace TakeMeToSpace.Base.Components;
+namespace TakeMeToSpace.Engine.Components;
 
 public enum ColliderType
 {
@@ -43,8 +43,7 @@ public class Collider
             default:
                 throw new Exception("Collider should have collider type");
         }
-        
-        // Set the vertices off of the set directional values
+
         Vector2[] vertices = 
         {
             new(PositionComponent.Position.X - PositionComponent.Origin.X, PositionComponent.Position.Y - PositionComponent.Origin.Y),
@@ -55,10 +54,13 @@ public class Collider
         BoundingPolygon = new BoundingPolygon(vertices);
     }
 
+    /// <summary>
+    /// Sets a horizontal bounding polygon by getting the midway point between the
+    /// minimum and maximum x values: minX + ((maxX - minX) / 2)
+    /// The y value can be any y because the tiles are all on the same row horizontally
+    /// </summary>
     private void SetHorizontalBoundingPolygon()
     {
-        // x position = minX + ((maxX - minX) / 2) 
-        // y position = any tile y value
         float minX = Tiles.Min(t => t.PositionComponent.Position.X);
         float maxX = Tiles.Max(t => t.PositionComponent.Position.X);
         
@@ -73,10 +75,13 @@ public class Collider
         };
     }
 
+    /// <summary>
+    /// Sets a horizontal bounding polygon by getting the midway point between the
+    /// minimum and maximum y values: minY + (maxY - minY) / 2
+    /// The x value can be any x because the tiles are all on the same row vertically
+    /// </summary>
     private void SetVerticalBoundingPolygon()
     {
-        // x position = any tile x value
-        // y position = minY + ((maxY - minY) / 2) 
         float minY = Tiles.Min(t => t.PositionComponent.Position.Y);
         float maxY = Tiles.Max(t => t.PositionComponent.Position.Y);
         
@@ -91,6 +96,14 @@ public class Collider
         };
     }
 
+    /// <summary>
+    /// Sets a box bounding polygon by getting the midway point between the
+    /// minimum and maximum x values: minX + ((maxX - minX) / 2)
+    /// and getting the midway point between the
+    /// minimum and maximum y values: minY + (maxY - minY) / 2
+    ///
+    /// Also calculates the number of tiles vertically and horizontally to set the origin
+    /// </summary>
     private void SetBoxBoundingPolygon()
     {
         // x position = minX + ((maxX - minX) / 2)

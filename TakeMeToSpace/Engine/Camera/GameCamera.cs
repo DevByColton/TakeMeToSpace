@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace TakeMeToSpace.Base.Camera;
+namespace TakeMeToSpace.Engine.Camera;
 
 public class GameCamera
 {

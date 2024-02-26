@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using TakeMeToSpace.Base.Components;
+using TakeMeToSpace.Engine.Components;
 
-namespace TakeMeToSpace.Base.Services;
+namespace TakeMeToSpace.Engine.Services;
 
 public class PrimitiveDrawingService
 {

@@ -4,9 +4,9 @@ using System.Text.Json;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
-using TakeMeToSpace.Base.Components;
+using TakeMeToSpace.Engine.Components;
 
-namespace TakeMeToSpace.Base.Services;
+namespace TakeMeToSpace.Engine.Services;
 
 public class TileMapper
 {
@@ -174,10 +174,6 @@ public class TileMapper
         }
     }
     
-    /// <summary>
-    /// Go through the tiles and group tiles by data into collider groups
-    /// </summary>
-    /// <returns></returns>
     public void CreateColliders()
     {
         for (int row = 0; row < Tiles.GetLength(0); row++)

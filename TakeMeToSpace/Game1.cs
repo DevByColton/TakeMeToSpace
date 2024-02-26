@@ -1,8 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using TakeMeToSpace.Base.Camera;
-using TakeMeToSpace.Base.Services;
+using TakeMeToSpace.Engine.Camera;
+using TakeMeToSpace.Engine.Services;
 using TakeMeToSpace.HomeArea;
 using TakeMeToSpace.Player;
 
@@ -28,8 +28,9 @@ namespace TakeMeToSpace
 
         protected override void Initialize()
         {
-            _graphics.PreferredBackBufferWidth = 1080;
-            _graphics.PreferredBackBufferHeight = 720;
+            _graphics.PreferredBackBufferWidth = 1920;
+            _graphics.PreferredBackBufferHeight = 1080;
+            _graphics.IsFullScreen = false;
             _graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
             _graphics.GraphicsDevice.BlendState = BlendState.AlphaBlend;
             _graphics.ApplyChanges();
