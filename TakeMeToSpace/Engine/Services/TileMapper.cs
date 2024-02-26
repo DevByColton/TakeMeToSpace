@@ -188,7 +188,7 @@ public class TileMapper
                     startTile.IsColliderGrouped = true;
                     Collider collider = new Collider(startTile);
                     
-                    // Recursively map the rest of the tiles in the group by direction
+                    // Recursively map the rest of the tiles in the group by type
                     switch (startTile.ColliderType)
                     {
                         case ColliderType.Horizontal:
