@@ -18,7 +18,7 @@ public class HomeAreaManager
         // Read and map the home tiles from json data
         string path = Path.Combine(
             Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName, 
-            @"Content\TileMapData\HomeTileMap.json"
+            @"Data\TileMapData\HomeTileMap.json"
         );
 
         _tileMapper.MapFromJson(content, path);

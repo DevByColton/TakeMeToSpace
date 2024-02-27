@@ -11,9 +11,8 @@ public class BoundingPolygon
     // Todo: Make sure once destroying objects is implemented, to clean up ids that are being destroyed
     private static readonly HashSet<int> UniqueIds = new();
     private static readonly int MaxIdNumber = 1001;
-
+    private readonly HashSet<int> _collidingWithIds = new();
     public readonly int Id;
-    public readonly HashSet<int> CollidingWithIds = new();
     public Vertex[] Vertices;
 
     private bool _isColliding;
@@ -54,18 +53,18 @@ public class BoundingPolygon
     
     private void UpdateIsColliding()
     {
-        IsColliding = CollidingWithIds.Count != 0;
+        IsColliding = _collidingWithIds.Count != 0;
     }
 
     public void AddCollidingWith(int id)
     {
-        CollidingWithIds.Add(id);
+        _collidingWithIds.Add(id);
         UpdateIsColliding();
     }
 
     public void RemoveCollidingWith(int id)
     {
-        CollidingWithIds.Remove(id);
+        _collidingWithIds.Remove(id);
         UpdateIsColliding();
     }
 
