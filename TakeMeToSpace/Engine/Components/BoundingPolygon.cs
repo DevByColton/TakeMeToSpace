@@ -90,7 +90,7 @@ public class BoundingPolygon
         }
     }
 
-    public Vertex[] TransformCopyVertices(Vector2 position, Vector2 translation, float rotation)
+    public Vertex[] TransformCloneVertices(Vector2 position, Vector2 translation, float rotation)
     {
         Vertex[] verticesCopy = new Vertex[Vertices.Length];
         float cos = (float)Math.Cos(rotation);

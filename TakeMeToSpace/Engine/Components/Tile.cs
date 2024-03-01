@@ -16,7 +16,7 @@ public class Tile
     public int Column;
     
 
-    public void SetTileRectangle()
+    public void SetRectangle()
     {
         TileRectangle = new Rectangle(
             (int) PositionComponent.Offset().X,

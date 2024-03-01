@@ -15,7 +15,7 @@ public class PlayerCollisionService
         Vector2 potentialPosition = playerEntity.PositionComponent.Position + potentialDirection;
         
         // Get the potential new vertices components
-        Vertex[] potentialVertices = playerEntity.BoundingPolygon.TransformCopyVertices(
+        Vertex[] potentialVertices = playerEntity.BoundingPolygon.TransformCloneVertices(
             potentialPosition,
             potentialDirection,
             playerEntity.PositionComponent.Rotation

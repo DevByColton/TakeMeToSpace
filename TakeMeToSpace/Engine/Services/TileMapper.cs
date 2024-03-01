@@ -169,7 +169,7 @@ public class TileMapper
                     Column = col
                 };
                 
-                Tiles[row, col].SetTileRectangle();
+                Tiles[row, col].SetRectangle();
             }
         }
     }
