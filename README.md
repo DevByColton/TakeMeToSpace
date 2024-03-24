@@ -6,13 +6,13 @@ You start in your base camp, close by will be your ol space boots capable of tra
 
 ## Technical summary
 
-Take me to Space is a short 2D dungeon crawler that should take around 20 to 30 minutes to beat. It's being developed using [Monogame](https://monogame.net/). My goal with this game is learn core game development mechanics, with more focus on the programming side of it, rather than the art and sounds. Such as collision detection and resolution, UI/UX, scenes/scene switching, inventory management, player input, animation, tilesets, and more. All of these features are self implemented to do my best at understanding and learning what is code is executing in the core gameplay loop. All in all, it will be a short game that should take around 20 to 30 minutes to beat.
+Take me to Space is a short 2D dungeon crawler that should take around 20 to 30 minutes to beat. It's being developed using [Monogame](https://monogame.net/). My goal with this game is learn core game development mechanics, with more focus on the programming side of it, rather than the art and sounds. Such as collision detection and resolution, UI/UX, scenes/scene switching, inventory management, player input, animation, tile sets, and more. All of these features are self implemented to do my best at understanding and learning what is code is executing in the core gameplay loop. All in all, it will be a short game that should take around 20 to 30 minutes to beat.
 
 ## Features already implemented:
 - Collision Detection and Resolution
 - Primitive Drawing component used mostly for debugging collision polygons
 - Camera class
-- Tileset reader from JSON data
+- Reading tile set from JSON data to layout world (From a tool I wrote to convert a google sheet CSV data to JSON data. A google sheet is used to visualize the tile map layout. [Source code for the tool](https://github.com/DevByColton/TileMapConverter)
 
 ## Roadmap of features that are a WIP (in order of importance): *art and sounds as needed*
 - Player input using command pattern
