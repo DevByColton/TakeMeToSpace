@@ -12,7 +12,7 @@ Take me to Space is a short 2D dungeon crawler that should take around 20 to 30 
 - Collision Detection and Resolution
 - Primitive Drawing component used mostly for debugging collision polygons
 - Camera class
-- Reading tile set from JSON data to layout world (From a tool I wrote to convert a google sheet CSV data to JSON data. A google sheet is used to visualize the tile map layout. [Source code for the tool](https://github.com/DevByColton/TileMapConverter)
+- Reading tile set from JSON data to layout world (From a tool I wrote to convert a google sheet CSV data to JSON data. A google sheet is used to visualize the tile map layout. [Source code for the tool](https://github.com/DevByColton/TileMapConverter))
 
 ## Roadmap of features that are a WIP (in order of importance): *art and sounds as needed*
 - Player input using command pattern
