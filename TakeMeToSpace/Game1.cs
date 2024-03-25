@@ -28,16 +28,16 @@ namespace TakeMeToSpace
 
         protected override void Initialize()
         {
-            _graphics.PreferredBackBufferWidth = 1920;
-            _graphics.PreferredBackBufferHeight = 1080;
-            _graphics.IsFullScreen = false;
+            _graphics.PreferredBackBufferWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
+            _graphics.PreferredBackBufferHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+            _graphics.IsFullScreen = true;
             _graphics.GraphicsDevice.DepthStencilState = DepthStencilState.Default;
             _graphics.GraphicsDevice.BlendState = BlendState.AlphaBlend;
             _graphics.ApplyChanges();
 
             _primitiveDrawingService = new PrimitiveDrawingService(_graphics);
             _homeAreaManager = new HomeAreaManager(Content);
-            _playerManager = new PlayerManager(Content);
+            _playerManager = new PlayerManager(Content, new Vector2(_homeAreaManager.TotalWidth() / 2f, _homeAreaManager.TotalHeight() / 2f));
             _gameCamera = new GameCamera(_graphics.PreferredBackBufferWidth, _graphics.PreferredBackBufferHeight, _playerManager.PlayerEntity.PositionComponent.Position);
             _gameCamera.SetMinMaxScroll(
                 _homeAreaManager.TotalWidth(), 
@@ -77,6 +77,15 @@ namespace TakeMeToSpace
             _homeAreaManager.Draw(_spriteBatch, _primitiveDrawingService, _font);
             _playerManager.Draw(_spriteBatch, _primitiveDrawingService, _font);
             
+            _spriteBatch.End();
+            
+            _spriteBatch.Begin();
+            _spriteBatch.DrawString(
+                _font, 
+                "Use WASD to move, and Up and Down arrow keys rotate. Right arrow key resets rotation", 
+                new Vector2(20, 20), 
+                Color.White
+            );
             _spriteBatch.End();
         
             _primitiveDrawingService.Draw(_gameCamera.TransformMatrix);
