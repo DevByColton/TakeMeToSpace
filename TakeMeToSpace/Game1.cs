@@ -82,7 +82,7 @@ namespace TakeMeToSpace
             _spriteBatch.Begin();
             _spriteBatch.DrawString(
                 _font, 
-                "Use WASD to move, and Up and Down arrow keys rotate. Right arrow key resets rotation", 
+                "Use WASD to move, and Up and Down arrow keys rotate. Right arrow key resets rotation. Escape key to quit.", 
                 new Vector2(20, 20), 
                 Color.White
             );
